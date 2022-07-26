@@ -19,4 +19,4 @@ rows = run_query(f'SELECT * FROM "{sheet_url}"')
 
 # Print results.
 for row in rows:
-    st.write(f"{row.TITOLO} has a :{row.DESCRIZIONE}: e {row.TIPO}")
+    st.write(f"{row.TITOLO} has a :{row.DESCRIZIONE}: e {row.TIPO} e {row.DATA}")
