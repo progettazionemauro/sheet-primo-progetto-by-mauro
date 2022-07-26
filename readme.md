@@ -1,3 +1,5 @@
+26/07/22 - IL TUTTO FUNZIONA! 
+
 1) sudo apt-get install python3-pip
 2) pip3 install pipenv
 3) cd myproject
