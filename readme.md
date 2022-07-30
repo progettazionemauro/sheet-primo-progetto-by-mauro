@@ -5,9 +5,12 @@
 3) cd myproject
 4) python3 -m venv env e poi source env/bin/activate
 5) pip3 install gsheetsdb
-6) streamlit hello venv
+5 . a) se è presente requirements.txt installare e duenque: pip3 install -r requirements.txt
+6) streamlit hello
 6.a) nel caso non si sia creato il gitignore git init potrebbe dare un errore di overflow per cui rimuovere il file con rm -rf .git
 6. b) creare il file .gitignore ed inserire venv
+6.c) creare .streamlit/secrets.toml
+6. d) inserire il format seguente come # SPREADSHEET_ID = "1Y6_89ick_tTQeVh4OGP44pXOrexZw1ASnlES8-s_1zY"
 7) git init
 
 
